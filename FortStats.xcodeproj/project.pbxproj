@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159DF6D3F2E2764A2A1774D8 /* Pods_FortStats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FA795FAB6F5193A1166209 /* Pods_FortStats.framework */; };
+		93C2538E20547E2C001BA07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2538D20547E2C001BA07A /* AppDelegate.swift */; };
+		93C2539020547E2C001BA07A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2538F20547E2C001BA07A /* MainVC.swift */; };
+		93C2539320547E2C001BA07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C2539120547E2C001BA07A /* Main.storyboard */; };
+		93C2539520547E2C001BA07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C2539420547E2C001BA07A /* Assets.xcassets */; };
+		93C2539820547E2C001BA07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C2539620547E2C001BA07A /* LaunchScreen.storyboard */; };
+		93C253A52055BC40001BA07A /* Fortnite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C253A42055BC40001BA07A /* Fortnite.swift */; };
+		93C253A72055BED6001BA07A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C253A62055BED6001BA07A /* Constants.swift */; };
+		93C253AA20565EC6001BA07A /* ShowStatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C253A920565EC6001BA07A /* ShowStatsVC.swift */; };
+		93C253AE20572221001BA07A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C253AD20572221001BA07A /* User.swift */; };
+		93C253B0205737A6001BA07A /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C253AF205737A6001BA07A /* Connection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C44AC0391024F734C831DBE /* Pods-FortStats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortStats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortStats/Pods-FortStats.debug.xcconfig"; sourceTree = "<group>"; };
+		93C2538A20547E2C001BA07A /* FortStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C2538D20547E2C001BA07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93C2538F20547E2C001BA07A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		93C2539220547E2C001BA07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93C2539420547E2C001BA07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C2539720547E2C001BA07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93C2539920547E2C001BA07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C253A42055BC40001BA07A /* Fortnite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortnite.swift; sourceTree = "<group>"; };
+		93C253A62055BED6001BA07A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93C253A920565EC6001BA07A /* ShowStatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStatsVC.swift; sourceTree = "<group>"; };
+		93C253AD20572221001BA07A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		93C253AF205737A6001BA07A /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		C42A08D5E2DFCB78B636F297 /* Pods-FortStats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortStats.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortStats/Pods-FortStats.release.xcconfig"; sourceTree = "<group>"; };
+		C7FA795FAB6F5193A1166209 /* Pods_FortStats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortStats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C2538720547E2C001BA07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159DF6D3F2E2764A2A1774D8 /* Pods_FortStats.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259AED5B358F81524DE0EAB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA795FAB6F5193A1166209 /* Pods_FortStats.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93C2538120547E2C001BA07A = {
+			isa = PBXGroup;
+			children = (
+				93C2538C20547E2C001BA07A /* FortStats */,
+				93C2538B20547E2C001BA07A /* Products */,
+				94F3188EC4C19885DE9EB7C1 /* Pods */,
+				259AED5B358F81524DE0EAB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93C2538B20547E2C001BA07A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C2538A20547E2C001BA07A /* FortStats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C2538C20547E2C001BA07A /* FortStats */ = {
+			isa = PBXGroup;
+			children = (
+				93C253A12055BA60001BA07A /* Model */,
+				93C253A02055BA5B001BA07A /* View */,
+				93C2539F2055BA50001BA07A /* Controller */,
+				93C2538D20547E2C001BA07A /* AppDelegate.swift */,
+				93C2539420547E2C001BA07A /* Assets.xcassets */,
+				93C2539920547E2C001BA07A /* Info.plist */,
+			);
+			path = FortStats;
+			sourceTree = "<group>";
+		};
+		93C2539F2055BA50001BA07A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93C2538F20547E2C001BA07A /* MainVC.swift */,
+				93C253A920565EC6001BA07A /* ShowStatsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C253A02055BA5B001BA07A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93C2539620547E2C001BA07A /* LaunchScreen.storyboard */,
+				93C2539120547E2C001BA07A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C253A12055BA60001BA07A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93C253A42055BC40001BA07A /* Fortnite.swift */,
+				93C253AD20572221001BA07A /* User.swift */,
+				93C253A62055BED6001BA07A /* Constants.swift */,
+				93C253AF205737A6001BA07A /* Connection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94F3188EC4C19885DE9EB7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C44AC0391024F734C831DBE /* Pods-FortStats.debug.xcconfig */,
+				C42A08D5E2DFCB78B636F297 /* Pods-FortStats.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C2538920547E2C001BA07A /* FortStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C2539C20547E2C001BA07A /* Build configuration list for PBXNativeTarget "FortStats" */;
+			buildPhases = (
+				2B83E7059CE344E93228BD0C /* [CP] Check Pods Manifest.lock */,
+				93C2538620547E2C001BA07A /* Sources */,
+				93C2538720547E2C001BA07A /* Frameworks */,
+				93C2538820547E2C001BA07A /* Resources */,
+				718A792CCFDF645906F442EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortStats;
+			productName = FortStats;
+			productReference = 93C2538A20547E2C001BA07A /* FortStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C2538220547E2C001BA07A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Wassim Mouhajer";
+				TargetAttributes = {
+					93C2538920547E2C001BA07A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93C2538520547E2C001BA07A /* Build configuration list for PBXProject "FortStats" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C2538120547E2C001BA07A;
+			productRefGroup = 93C2538B20547E2C001BA07A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C2538920547E2C001BA07A /* FortStats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C2538820547E2C001BA07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C2539820547E2C001BA07A /* LaunchScreen.storyboard in Resources */,
+				93C2539520547E2C001BA07A /* Assets.xcassets in Resources */,
+				93C2539320547E2C001BA07A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B83E7059CE344E93228BD0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortStats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718A792CCFDF645906F442EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortStats/Pods-FortStats-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortStats/Pods-FortStats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C2538620547E2C001BA07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C2539020547E2C001BA07A /* MainVC.swift in Sources */,
+				93C253A52055BC40001BA07A /* Fortnite.swift in Sources */,
+				93C253AE20572221001BA07A /* User.swift in Sources */,
+				93C253AA20565EC6001BA07A /* ShowStatsVC.swift in Sources */,
+				93C2538E20547E2C001BA07A /* AppDelegate.swift in Sources */,
+				93C253A72055BED6001BA07A /* Constants.swift in Sources */,
+				93C253B0205737A6001BA07A /* Connection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93C2539120547E2C001BA07A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C2539220547E2C001BA07A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93C2539620547E2C001BA07A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C2539720547E2C001BA07A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93C2539A20547E2C001BA07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93C2539B20547E2C001BA07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C2539D20547E2C001BA07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C44AC0391024F734C831DBE /* Pods-FortStats.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9646C9L9GA;
+				INFOPLIST_FILE = FortStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WassimMouhajer.FortStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93C2539E20547E2C001BA07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42A08D5E2DFCB78B636F297 /* Pods-FortStats.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9646C9L9GA;
+				INFOPLIST_FILE = FortStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WassimMouhajer.FortStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C2538520547E2C001BA07A /* Build configuration list for PBXProject "FortStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C2539A20547E2C001BA07A /* Debug */,
+				93C2539B20547E2C001BA07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C2539C20547E2C001BA07A /* Build configuration list for PBXNativeTarget "FortStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C2539D20547E2C001BA07A /* Debug */,
+				93C2539E20547E2C001BA07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93C2538220547E2C001BA07A /* Project object */;
+}
