@@ -9,7 +9,7 @@
 import UIKit
 
 let BASE_URL = "https://api.fortnitetracker.com/v1/profile/\(User.sharedInstance.type!)/\(User.sharedInstance.username!)"
-//Set your API key
+//Set your API Key using https://fortnitetracker.com/site-api
 let API_KEY = ""
 
 typealias DownloadComplete = () -> ()
